@@ -1,0 +1,27 @@
+form{
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+}
+
+input{
+    margin-right: 1.5rem;
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: 2px solid orangered;
+    border-radius: 10px;
+}
+
+button{
+    height: 30px;
+    border: 2px solid orangered;
+    border-radius: 10px;
+    width: 60px;
+}
+
+button:hover{
+    color: white;
+    background: orangered;
+    animation: 2.5s ease-in-out;
+}

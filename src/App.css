@@ -1,0 +1,24 @@
+.App {
+  padding-top: 1.5rem;
+  background-color: black;
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #d66161;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: orangered;
+}

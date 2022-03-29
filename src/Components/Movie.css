@@ -1,0 +1,39 @@
+.main__box {
+    width: 23%;
+    border-radius: 15px;
+    transition: 250ms ease-in-out;
+    cursor: pointer;
+}
+
+.main__box:hover h2{
+    border-bottom: 2px solid orangered;
+}
+
+.main__box:hover{
+    -ms-transform: scale(1.2); 
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); 
+}
+
+img{
+    margin: auto;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.img__container{
+    position: relative;
+}
+
+.overlay{
+    font-size: 10vh;
+    position: absolute;
+    right: 40%;
+    top: 45%;
+    color: transparent;
+}
+
+.main__box:hover .overlay{
+    color: orangered;
+}
